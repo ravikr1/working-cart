@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>My Shopping Store</h1>
+<div id="products"></div>
+
+<h2>Shopping Cart</h2>
+<div id="cart"></div>
+
+<h3>Subtotal: ₹<span id="subtotal">0</span></h3>
+<input type="text" id="promo" placeholder="Enter promo code">
+<button onclick="applyPromo()">Apply</button>
+<p id="discount"></p>
+<p>Tax (5%): ₹<span id="tax">0</span></p>
+<h2>Grand Total: ₹<span id="total">0</span></h2>
+
+<button onclick="showCheckout()">Checkout</button>
+
+<div id="checkout" style="display:none;">
+    <h2>Checkout - Step 1</h2>
+    <input type="text" id="name" placeholder="Your Name"><br><br>
+    <input type="text" id="email" placeholder="Email">
+    <p id="emailError"></p>
+    <button onclick="step2()">Next</button>
+
+    <div id="payment" style="display:none;">
+        <h2>Checkout - Step 2</h2>
+        <input type="text" id="card" placeholder="Dummy Card Number">
+        <p id="cardError"></p>
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

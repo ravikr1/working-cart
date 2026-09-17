@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"T-Shirt","price":500,"image":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRnjevM6LfMB547tOunNE-K6SKbyZn46EAb1esCtXgs0A_d4tvIebbIh55Vr5f-bbdAW0JnFAGTUp_MaNQnonbSHCGAsfx99MR6Mn1g4QW5zdt7xhZgkWPRHsU"},
+  {"id":2,"name":"Shoes","price":1200,"image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQVjOMDVx5myuxieh11CDKuQXlGZ2ct6ZpjE7aOB-8fhHLyQlDvwwO_y_LgflKtjn6nyKlT_7zG5b-MqnizFhE-qpGYZKA36a2RRdpYJLMbLeJNiwq7JTd9PA"},
+  {"id":3,"name":"Watch","price":800,"image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTaKEMPwdmCO9rKdx5lcdMTfpO9FbG4tL96F3l9QrkNhhxD_UkYsE25t0a5QJNV9rYi3_QIPYM3WiDMKmoVABOueH2T4E_1bt_4gVqaCsSr-wVeLXFYIbcSjyd_"},
+  {"id":4,"name":"Headphones","price":1500,"image":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT6p-cML7E6gnCd-7I5IxVuoYEJFT2vWGIp-FzdGJ6jAXftp1qP43amWRikaCnpJpM92HpfStkuuOjhe5ptUdBBCBlbI39Lv6s68bupRf5-7iN7P4TDZkQyPg"}
+]

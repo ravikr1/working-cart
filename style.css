@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 30px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+#products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    border: 1px solid black;
+    padding: 15px;
+    width: 180px;
+}
+.product img {
+    width: 150px;
+    height: 150px;
+}
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+#cart {
+    margin-top: 20px;
+}
+.cartItem {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 5px;
+}
+input {
+    padding: 8px;
+}
+p {
+    color: red;
+}
